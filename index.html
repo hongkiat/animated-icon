@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Creating Basic Animated Icon</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<header class="demo-header cf">
+		<h1>Basic Animated Icon</h1>
+		<a href="#">Go to the Article</a>
+	</header>
+
+	<div class="demo-content cf">
+		<div id="btn" class="circle">
+			<div class="cross-a"></div>
+			<div class="cross-b"></div>
+		</div>
+	</div>
+
+	<script>
+
+	
+		document.querySelector( "#btn" ).addEventListener( "click", function() {
+			this.classList.toggle( "ok" );
+		});
+	</script>
+</body>
+</html>
